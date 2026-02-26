@@ -23,18 +23,6 @@ ul {
 }
 
 a {
-    input[type="submit"] {
-    background-color: #1a73e8;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-input[type="submit"]:hover {
-    background-color: #1558b0;
-}
     text-decoration: none;
     color: white;
     background-color: #1a73e8;
@@ -45,5 +33,19 @@ input[type="submit"]:hover {
 }
 
 a:hover {
+    background-color: #1558b0;
+}
+
+/* Submit button styling */
+input[type="submit"] {
+    background-color: #1a73e8;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
     background-color: #1558b0;
 }
